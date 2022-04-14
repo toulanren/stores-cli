@@ -8,11 +8,11 @@
 
 ## 安装
 
-- npm i store-cli -g
+- npm i stores-cli -g
 
 ## 配置模板仓库
 
-在用户根目录下添加文件：.store-cli.json
+在用户根目录（process.env.HOME）下添加文件：.stores-cli.json
 
 参考此配置：
 
@@ -39,4 +39,4 @@ folder: 文件夹路径，默认为当前目录
 
 - store update
 
-在使用 store-cli 构建的项目的根目录下，使用此命令，可以获取远端版本的变动。
+在使用 stores-cli 构建的项目的根目录下，使用此命令，可以获取远端版本的变动。

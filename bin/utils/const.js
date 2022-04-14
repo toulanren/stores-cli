@@ -4,7 +4,7 @@ const fs = require('fs')
 let TEMPLATES = []
 
 try {
-  TEMPLATES = require(path.resolve(process.env.HOME, './.store-cli.json'))
+  TEMPLATES = require(path.resolve(process.env.HOME, './.stores-cli.json'))
 } catch (e) {
   e
 }
